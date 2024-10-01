@@ -8,8 +8,8 @@ public class Exercise24 {
         String[] elements = new String[]{"Smith", "Montessori", "Peralta", "House"};
         Queue<String> newQueue = new LinkedList<>();
 
-        for (int i = 0; i < elements.length; i++) {
-            newQueue.offer(elements[i]);
+        for (String element : elements) {
+            newQueue.offer(element);
         }
         return newQueue;
     }
